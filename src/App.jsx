@@ -12,9 +12,12 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='map' element={<Map />} />
-                <Route path='/howtouse' element={<HowtoUse />} />
-                <Route path='*' element={<NotFound />} />
+                <Route path='/'>
+                    <Route index element={<Map />} />
+                    <Route path='map' element={<Map />} />
+                    <Route path='howtouse' element={<HowtoUse />} />
+                    <Route path='*' element={<NotFound />} />
+                </Route>
             </Routes>
         </BrowserRouter>
     )
