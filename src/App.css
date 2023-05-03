@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap");
+
+.App {
+  background-color: #9dc3fb;
+}
+
+body {
+  background-color: #9dc3fb;
+}
+
+.level-menu {
+  background-color: white;
+  width: 200px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  border-color: black;
+  text-indent: 10px;
+  z-index: 1000;
+}
+
+.level-5:hover {
+  cursor: pointer;
+  background-color: #e84c3d;
+}
+
+.level-4:hover {
+  cursor: pointer;
+  background-color: #d58337;
+}
+
+.level-3:hover {
+  cursor: pointer;
+  background-color: #f3c218;
+}
+
+.level-2:hover {
+  cursor: pointer;
+  background-color: #30cc70;
+}
+
+.menu-header {
+  font-weight: bold;
+}
+
+.menu-header:hover {
+  cursor: pointer;
+}
+
+.menu-header,
+.level-5,
+.level-4,
+.level-3,
+.level-2,
+.level-1 {
+  display: flex;
+  min-height: 25px;
+  align-items: center;
+}
+
+.level-1:hover {
+  cursor: pointer;
+  background-color: #3598db;
+}
+
+.level-0 {
+  display: flex;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  min-height: 25px;
+  align-items: center;
+}
+
+.level-0:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.sidebar-menu {
+  position: absolute;
+  top: 0px;
+}
+
+.save-image-button {
+  /* position: relative; */
+  background-color: white;
+  border-radius: 10px;
+  min-height: 30px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  margin-right: 25px;
+  padding: 1.5px;
+}
+
+.save-image-button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.bullet {
+  list-style-type: circle;
+}
+
+/* For Not found page */
+.mainbox {
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+.err {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 20%;
+  top: 8%;
+}
+
+.msg {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 13%;
+  top: 45%;
+  width: 75%;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  text-align: end;
+  font-weight: bold;
+  margin-right: 0.8rem;
+}
+
+.btn {
+  color: white;
+  border-radius: 10px;
+  min-height: 30px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 100px;
+  justify-content: space-evenly;
+  border: none;
+  padding: 1.5px;
+  outline: none;
+}
+
+.fb-btn {
+  background: #4267b3;
+  margin-right: 25px;
+}
+
+.fb-btn:hover {
+  background-color: #507fdd;
+}
+
+.twitter-btn {
+  background-color: #00acee;
+}
+
+.twitter-btn:hover {
+  background-color: #1abdfd;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.footer {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .footer a {
+  padding-left: 6px;
+} */
