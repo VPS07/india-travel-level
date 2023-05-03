@@ -34,7 +34,7 @@ function Map() {
             <section className='footer'>
                 <div>Made with ❤ in India by <a href="https://twitter.com/vps05" target='_blank'>vps</a>.</div>
                 <div>
-                    Source code of project is available here and highly inspired by this <a href="https://www.my-philippines-travel-level.com/map" target='_blank'>project</a>.</div>
+                    Source code of project is available <a href="https://github.com/VPS07/india-travel-level" target='_blank'>here</a> and highly inspired by this <a href="https://www.my-philippines-travel-level.com/map" target='_blank'>project</a>.</div>
             </section>
         </>
     )
