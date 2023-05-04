@@ -192,6 +192,7 @@ body {
   flex-direction: column;
 }
 
-/* .footer a {
-  padding-left: 6px;
-} */
+.footer div {
+  text-align: center;
+  margin-top: 13px;
+}
